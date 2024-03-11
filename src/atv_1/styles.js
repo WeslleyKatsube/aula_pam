@@ -7,18 +7,20 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#e3f2fd',
         borderRadius: 20,
+        justifyContent: 'center'
     },  
-    paragraph: {
-        margin: 15,
+    titulo: {
+        margin: 30,
         fontSize: 20,
         fontWeight: 'bold',
         textAlign: 'center',
         color: '#1565c0' 
     },
-    Image: {
-        width: '100%',
-        height: '15%',
-        margin: 20,
+    imagem: {
+        width: '80%',
+        resizeMode: 'center'
+
+
     }
 });
 
