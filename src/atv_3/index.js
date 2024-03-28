@@ -24,6 +24,7 @@ export default function Atividade_3 () {
 
     return (
         <View style={styles.container}>
+            <View style={styles.container3}>
             <Text style={styles.titulo}>Atividade 3</Text>
                 <View style={styles.container1}>
                 <TouchableOpacity style={styles.botao1} onPress={() => subtracao()}>
@@ -39,6 +40,7 @@ export default function Atividade_3 () {
             <TouchableOpacity style={styles.botao} onPress={() => limpar()}>
             <Text style={styles.txtBotao}>Zerar</Text>
             </TouchableOpacity>
+            </View>
         </View>
 
     );
